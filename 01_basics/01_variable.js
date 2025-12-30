@@ -12,3 +12,8 @@ console.table([accountID,accountName,accountBalance,accountcity,accountcountry])
 /*
 prefer not to use var because of issues with block scope and functional scope
 */
+let x=10;
+if(true){
+    let x=20;
+}
+console.log(x);
