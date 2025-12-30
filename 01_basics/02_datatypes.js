@@ -16,3 +16,20 @@ console.log(typeof city); // object
 let state; // undefined
 console.log(typeof state);//undefined
 
+// Example of object
+let person = { name: "Alice", age: 30 };
+console.log("Object example:", person);
+console.log(typeof person); // object
+
+// Example of array
+let numbers = [1, 2, 3, 4, 5];
+console.log("Array example:", numbers);
+console.log(typeof numbers); // object
+
+// Example of function
+function greet() {
+	return "Hello, world!";
+}
+console.log("Function example:", greet());
+console.log(typeof greet); // function
+
